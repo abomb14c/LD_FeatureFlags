@@ -1,0 +1,29 @@
+.card {
+  align-items: center;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.30);
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 150px;
+  margin: 1%;
+  width: 25%;
+}
+
+.name{
+  color: #fff;
+  font-weight: 400;
+  font-size: 20px;
+}
+.name-container {
+  height: 30%;
+  background-color: #0F1A32;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-container {
+  flex-direction: row;
+  justify-content: flex-start;
+}
